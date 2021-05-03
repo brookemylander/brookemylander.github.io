@@ -58,8 +58,6 @@ div.container {
 figure{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 5em auto 3em;
-    grid-row-gap: 6em;
     grid-column-gap: 1.0em;
     padding-bottom: .7em;
 
@@ -77,9 +75,7 @@ figcaption{
 main{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 5em auto 3em;
     margin-bottom: 3em;
-    grid-row-gap: 10em;
     grid-column-gap: 2em;
     
 }
