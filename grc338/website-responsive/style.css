@@ -1,0 +1,77 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+}
+html {
+
+/*    font-family: Verdana, sans-serif;*/
+    
+   
+    
+}
+h1{
+    font-family: quasimoda, sans-serif;
+    width: 3em;
+    margin: auto;
+    margin-left: 0em;
+
+}
+h4{
+    font-family: quasimoda, sans-serif;
+    font-weight: lighter;
+}
+
+h3{
+    font-family: quasimoda, sans-serif;
+
+
+}
+h2{
+    font-family: quasimoda, sans-serif;
+  
+}
+h5{
+    font-family: quasimoda, sans-serif;
+}
+h6{
+    font-family: quasimoda, sans-serif;
+    font-weight: lighter;
+}
+
+nav{
+    margin-top: 1em;
+    margin-bottom: 2em; 
+}
+
+ul{ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: quasimoda, sans-serif;
+  
+  
+}
+
+nav li {
+    display: inline-block;
+}
+
+li a {
+    color: #6D8262;
+}
+
+li a:hover {
+    background-color:#AED79D;
+}
+a{
+    text-decoration: none;
+}
+p {
+    font-family: quasimoda, sans-serif;
+    font-weight: lighter;  
+}
+
+li {
+    padding: .25em .25em;
+}
