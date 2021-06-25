@@ -26,7 +26,8 @@ article {
 }
 
 aside {
-    flex: 0 ;
+    flex: 1 0 10em ;
+	
 }
 
 footer {
