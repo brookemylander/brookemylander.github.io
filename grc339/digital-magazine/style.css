@@ -2,10 +2,12 @@
 
 body {
     font-family: bilo, sans-serif;
+    background-color: #FAFAFA;
+
 }
 
 div.container {
-    max-width: 40em;
+    max-width: 75em;
     margin: auto;
 }
 
@@ -24,7 +26,8 @@ ul {
     
 }
 header {
-  text-align; left;
+  text-align; 
+  left;
 }
 h1 {
   width: 40%;
@@ -50,21 +53,67 @@ nav ul li {
 h3{
     font-family: Zenon;
     font-size: 1.5em;
-    color:#33320C
+    color: #373737;
+    margin-bottom: 0em;
+   
 
     
 }
 #main-story-header{
     font-family: Zenon;
     font-size: 1.7em;
-    color:#33320C      
+    color: #373737;
+    
+    
 }
 main a{
       text-decoration: none;
-    color: #000000
+    color: #373737;
     
+}
+aside a{
+    text-decoration: none;
+    color: #373737;
 }
 nav ul li a{
   text-decoration: none;
-  color: #545252;
+
+}
+section{
+    border-bottom: dashed #7E8987;
+}
+section{
+    max-width: 40em;
+    margin: 0 auto 3em;
+}
+
+@media screen and (min-width: 60em){
+    div.container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+        
+        
+    }
+    header{
+        grid-column: 1/3;
+    }
+    header img{
+        max-width: 60%;
+    }
+    section.main-story{
+        grid-column:2/4;
+        grid-row:1/3;
+        
+    }
+    main{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 1em;
+        
+    }
+    aside{
+        grid-column: 2/3;
+    }
 }
