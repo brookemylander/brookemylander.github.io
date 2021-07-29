@@ -195,9 +195,6 @@ input:nth-of-type(8):checked ~ main.gallery figure.figure-gallery:nth-of-type(8)
     opacity: 1;
 }
 
-input {
- 
-}
 
 /*form css*/
 .form-main{
@@ -217,7 +214,7 @@ input {
 section.personal-info ul li input[type="text"],
 section ul li input[type="email"],,
 section ul li select {
-	flex: 1 0 30em;
+	flex: 1 0 40em;
 	box-sizing: border-box;
 }
 section.personal-info ul li label {
@@ -232,6 +229,62 @@ section.order ul, section.method ul {
 section.order ul li , section.method ul li {
 	flex: 1 0 16em;
 	}
+
+input[type="radio"]{
+    visibility:hidden;
+}
+
+section.personal-info {
+	background-color: #eee;
+	padding: .5em 1em .5em 1em;
+	border-radius: 1em;
+	
+}
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em;
+}
+
+section.form {
+	background-color: #eee;
+	padding: .5em 1em .5em 1em;
+	border-radius: 1em;
+    
+}
+
+section.newsletter {
+	background-color: #eee;
+	padding: .5em 1em .5em 1em;
+	border-radius: 1em;
+}
+
+section.personal-info ul li label {
+	flex: 0 0 8em;
+}
+
+
+
+section.topics ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.form ul li {
+	margin: 0 1em 0 0;
+	flex: 1 0 15em;
+}
+
+textarea {
+	display: block;
+	width: 90%;
+	height: 6em;
+}
+
+form{
+    margin: 0 auto; 
+
+}
 
 textarea {
 	box-sizing: border-box;
